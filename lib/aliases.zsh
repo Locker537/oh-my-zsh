@@ -22,3 +22,13 @@ alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
 
+#File manipulations
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
+alias rmr='rm -r -i'
+
+#Process manipulations
+alias psall='ps -elf'
+alias psuser='ps -ax -j'
+
